@@ -1,0 +1,7 @@
+liczba = int(input("podaj: "))
+print(liczba)
+
+while liczba > 0:
+    liczba += 1
+    print(liczba)
+
