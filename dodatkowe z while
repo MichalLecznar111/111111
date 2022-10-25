@@ -1,0 +1,30 @@
+weight = 0
+ilosc = 0
+
+
+
+
+
+
+while weight < 50:
+    weight += int(input("ile wazy: "))
+    ilosc += 1
+print("Łączny ciężar to", weight)
+print("Załadowano: ", ilosc)
+print("Musisz dopłacić za: ", weight - 50)
+
+
+
+while True:
+    entered = input("Podaj liczbe, lub nacisnij enter by zakonczyc: ")
+    if entered == '':
+        break
+
+    number == int(entered)
+    for n in range(1, number + 1):
+        if number % n == 0:
+            print(n, end=' ')
+
+    print()
+
+
