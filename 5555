@@ -1,0 +1,14 @@
+n = int(input("I ilu n: "))
+
+i = 0
+suma = 0
+while i <= n:
+
+    punkty = int(input("Prosze o punty dla studenta {i}: "))
+    suma += punkty
+    i += 1
+    print(i)
+srednie = suma / n
+print(f"Srednia ocena grupy = {srednie}")
+
+
