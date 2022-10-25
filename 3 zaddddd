@@ -1,0 +1,8 @@
+a = 0
+
+while True:
+    a = int(input("Podaj liczbe: "))
+
+
+    if (a<=0):
+        break
