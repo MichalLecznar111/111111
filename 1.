@@ -1,0 +1,21 @@
+pierwsza = int(input("Podaj liczbę: "))
+
+druga = int(input("Podaj liczbę: "))
+
+
+if pierwsza > druga:
+    print(druga)
+elif druga > pierwsza:
+    print(pierwsza)
+else:
+    print("zjebales")
+
+
+while pierwsza < druga:
+    pierwsza += 1
+    print(pierwsza)
+
+
+while druga < pierwsza:
+    druga += 1
+    print(druga)
